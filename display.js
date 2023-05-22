@@ -11,13 +11,13 @@ function rateFilmes(movieIndex){
 
     while(true){
 
-    //O usuário escolhe a classificação para o filme
+    //O usuário escolhe a classificação para o filme.
     const rating = parseInt(prompt(`Classifique "${movie[0]}" de 1 a 5: `));
   
     //Valida as classificações.
     if (isNaN(rating) || rating < 1 || rating > 5) {
       console.log("Número inválido, escolher de 1 a 5.");
-      continue; //Repetir a prompt rating
+      continue; //Repetir a prompt rating.
     }
   
     //Puxa as ratings para o array ratings.
@@ -30,7 +30,7 @@ function rateFilmes(movieIndex){
     console.log(`Classificou "${movie[0]}" com ${rating} de score.\n`);
     console.log(`Com a sua classificação a media ficou ${movie[3]}.\n`);
 
-    break; // Faz com que acabe o while loop assim que for uma classificação valida
+    break; // Faz com que acabe o while loop assim que for uma classificação valida.
     }
 }
 
@@ -46,7 +46,7 @@ function verListaFilmes(){
     }
 }
 
-//Está é a função que mostra os filmes para classficar em ordem
+//Está é a função que mostra os filmes para classficar em ordem.
 function filmesParaClassificar(){
 
     count = 0
@@ -60,7 +60,7 @@ function filmesParaClassificar(){
     }
 }
 
-//Mostra o nome dos filmes e as classificações autualizadas
+//Mostra o nome dos filmes e as classificações autualizadas.
 function verClassificaçoes(){
 
     for (var i = 0; i < movies.length; i++) {
@@ -80,7 +80,7 @@ function verClassificaçoes(){
       }
 }
 
-//Serve para fechar o programa ou voltar aos menus
+//Serve para fechar o programa ou voltar aos menus.
 function verMenu(){
 
     do{
