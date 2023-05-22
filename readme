@@ -1,0 +1,10 @@
+O programa FredoFilms exibe um menu interativo para que o usuário possa escolher entre várias opções, como classificar um filme, ver as classificações e visualizar a lista de filmes disponíveis.
+
+O programa em si foi relativamente fácil de fazer. Eu acho que compliquei um pouco, tive alguns problemas no início ao colocar os menus do trabalho para funcionar com "if statements", então optei por usar um "SwitchCase", atualização da média com vários usuários também deu erro ao inicio mas consegui superá-los.
+
+Aprendi bastante ao longo do processo e percebi que seria útil fazer um esquema em papel antes de começar a programar, em vez de saltar diretamente para a implementação. Para projetos futuros, planeio utilizar essa abordagem.
+
+Acredito que otimizei o código ao máximo, mas se tiver alguma sugestão adicional para melhorias ficarei feliz em implementá-las para os próximos projetos ou apenas ouvir o seu input sobre o trabalho para melhor futuramente.
+
+Que venham mais aulas consigo :)
+
